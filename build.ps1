@@ -1,0 +1,1 @@
+.\restore.cmd ; .\eng\build.cmd
