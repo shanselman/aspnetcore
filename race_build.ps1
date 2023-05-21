@@ -5,7 +5,7 @@ $sw = [Diagnostics.Stopwatch]::StartNew()
 
 $sw.Stop()
 
-Write-Host $([string]::Format("Build time: {0:d2}:{1:d2}:{2:d2}",
+Write-Host $([string]::Format("`n🏁️🏃💨 Total time: {0:d2}:{1:d2}:{2:d2} ⏱️📎🏆️🎉",
                                   $sw.Elapsed.Hours,
                                   $sw.Elapsed.Minutes,
-                                  $sw.Elapsed.Seconds))
+                                  $sw.Elapsed.Seconds)) -ForegroundColor Green
